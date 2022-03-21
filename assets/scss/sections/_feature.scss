@@ -1,0 +1,35 @@
+.feature-part-icon {
+    width: 100px;
+    height: 100px;
+}
+.feature-icon {
+    width: 100px;
+    height: 100px;
+}
+.feature-txt {
+    width: calc(100% - 120px);
+}
+.feature-sub-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: $color-2;
+}
+.feature-sub-title-2 {
+    font-size: 72px;
+    line-height: 100%;
+}
+.video-btn {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 48px;
+    &.video-btn-2 {
+        font-size: 36px;
+    }
+}
+.feature-title {
+    font-size: 172px;
+    line-height: 100%;
+    color: $color-2;
+}

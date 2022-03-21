@@ -1,0 +1,133 @@
+.class-details-title {
+    font-size: 32px;
+    line-height: 100%;
+    font-weight: 700;
+    color: $color-2;
+}
+.class-details-info {
+    border-bottom: 1px solid rgba($black, 0.2);
+}
+.class-details-video {
+    background: url(../images/class-details-video-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.class-comment-title {
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $black-2;
+}
+.class-comment {
+    display: flex;
+    align-items: center;
+}
+.class-comment-img {
+    width: 70px;
+    height: 70px;
+}
+.class-comment-txt {
+    width: calc(100% - 100px);
+    border: 1px solid $white-3;
+}
+.class-comment-username {
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $black-2;
+}
+.class-comment-details {
+    font-size: 14px;
+    line-height: 24px;
+    color: $black;
+}
+.class-comment-actions {
+    display: flex;
+    gap: 20px;
+}
+.class-comment-single-action {
+    font-size: 14px;
+    line-height: 100%;
+    color: $black;
+    margin-bottom: -3px;
+}
+.comment-textarea {
+    height: 200px;
+}
+
+.sidebar-box {
+    border: 1px solid $white-3;
+}
+.sidebar-title {
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $color-2;
+}
+.sidebar-search-box {
+    display: flex;
+    border: 1px solid $white-3;
+    border-radius: 7px;
+    transition: $transition;
+    &:focus-within {
+        border-color: $color-1;
+    }
+}
+.sidebar-search-input {
+    width: 100%;
+    height: 55px;
+    font-size: 14px;
+}
+.sidebar-search-btn {
+    font-size: 18px;
+}
+.sidebar-class-category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    line-height: 36px;
+    color: $black;
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-55%);
+        width: 15px;
+        height: 15px;
+        background: $white-4;
+        border: 1px solid $white-3;
+        border-radius: 3px;
+        transition: $transition;
+    }
+    &:hover {
+        &:after {
+            background: $white-3;
+        }
+    }
+}
+.class-thumb {
+    width: 60px;
+}
+.sidebar-class-txt {
+    width: calc(100% - 80px);
+}
+.sidebar-class-title {
+    display: block;
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $color-2;
+}
+.sidebar-sub-txt {
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    color: $black;
+}

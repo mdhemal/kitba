@@ -1,0 +1,85 @@
+.shop-slick-prev {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+    color: $black-3;
+    font-size: 14px;
+    z-index: 5;
+    &:hover, &:focus {
+        color: $color-1
+    }
+}
+.shop-slick-next {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    color: $black-3;
+    font-size: 14px;
+    z-index: 5;
+    &:hover, &:focus {
+        color: $color-1
+    }
+}
+.shop-details-sm-img {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shop-details-sm-images {
+    .slick-current {
+        border-color: $white-3;
+    }
+}
+.shop-details-product-title {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color: $color-2;
+}
+.shop-details-price {
+    font-size: 24px;
+    line-height: 100%;
+    font-weight: 700;
+    color: $color-2;
+    margin-bottom: 0;
+}
+.shop-details-discount {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: $black;
+}
+.product-details-bottom-part {
+    border: 1px solid $white-3;
+}
+.product-details-btn {
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $color-2;
+    background: $white-3;
+    &.active {
+        background: $gradient-1;
+        color: $white;
+    }
+}
+.product-information-list {
+    font-size: 16px;
+    line-height: 30px;
+    border-bottom: 1px solid $white-3;
+    &:last-child {
+        border-bottom: 0;
+    }
+}
+.product-information-list-subject {
+    min-width: 120px;
+}
+#inputStar {
+    width: max-content;
+    font-size: 14px;
+    line-height: 100%;
+}

@@ -1,0 +1,115 @@
+.header {
+    background: url(../images/header-bg.png) bottom center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
+}
+.header-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
+}
+.header-container {
+    width: 100%;
+    max-width: 1580px;
+}
+.top-header {
+    background: $color-1;
+}
+.header-txt {
+    font-size: 16px;
+    color: $white;
+    height: 50px;
+    line-height: 50px;
+    border-left: 1px solid rgba($white, 0.3);
+    &:first-child {
+        border-left: 0;
+    }
+}
+.header-right-txt {
+    &:last-child {
+        border-right: 1px solid rgba($white, 0.3);
+    }
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: $white;
+    border-left: 1px solid rgba($white, 0.3);
+    &:hover, &:focus {
+        color: $color-1;
+        background: $white;
+    }
+}
+.nav-item {
+    &:hover, &:focus-within {
+        .nav-link {
+            &:after {
+                width: 100%;
+            }
+        }
+        .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+.nav-link {
+    font-size: 14px;
+    height: 20px;
+    line-height: 21px;
+    font-weight: 700;
+    color: $color-2;
+    text-transform: uppercase;
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: $color-1;
+        transition: $transition-ease;
+    }
+    &:hover, &:focus {
+        color: $color-2;
+        &:after {
+            width: 100%;
+        }
+    }
+}
+.dropdown-menu {
+    display: block;
+    border-radius: 0;
+    border-color: rgba($black, 0.2);
+    min-width: 180px;
+    opacity: 0;
+    visibility: hidden;
+    transition: $transition-ease;
+}
+.dropdown-menu[data-bs-popper] {
+    left: inherit;
+    margin-top: inherit;
+}
+.dropdown-item {
+    font-size: 14px;
+    font-weight: 500;
+    color: $black;
+    &:hover, &:focus {
+        background: $color-1;
+        color: $white;
+    }
+}
+.nav-cart-icon {
+    width: 40px;
+    height: 40px;
+    background: $gradient-4;
+    border-radius: 50%;
+}

@@ -1,0 +1,53 @@
+.staff-name {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    color: $color-2;
+    &:hover {
+        color: $color-1;
+    }
+}
+.staff-social-btn {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: url(../images/vector-bg-1.png) center center no-repeat;
+    background-size: 50px;
+    color: $white;
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        border-radius: 50%;
+        box-shadow: 0px 25px 20px 0px rgba($color-1, 0.25);
+    }
+    &.bg-1 {
+        background: url(../images/vector-bg-2.png) center center no-repeat;
+        background-size: 50px;
+        &:before {
+            box-shadow: 0px 25px 20px 0px rgba($color-3, 0.25);
+        }
+    }
+    &.bg-2 {
+        background: url(../images/vector-bg-3.png) center center no-repeat;
+        background-size: 50px;
+        &:before {
+            box-shadow: 0px 25px 20px 0px rgba($color-8, 0.25);
+        }
+    }
+    &.bg-3 {
+        background: url(../images/vector-bg-4.png) center center no-repeat;
+        background-size: 50px;
+        &:before {
+            box-shadow: 0px 25px 20px 0px rgba($color-5, 0.25);
+        }
+    }
+    &:hover {
+        color: $white;
+    }
+}

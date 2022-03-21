@@ -1,0 +1,58 @@
+.banner {
+    background: url(../images/banner-bg-1.jpg) bottom center no-repeat;
+    background-size: cover;
+}
+.banner-2 {
+    background: url(../images/banner-bg-2.jpg) bottom center no-repeat;
+    background-size: cover;
+}
+.breadcrumb-banner {
+    background: url(../images/breadcrumb-bg.jpg) bottom center no-repeat;
+    background-size: cover;
+}
+.banner-subtitle {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: $white;
+}
+.banner-subtitle-2 {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: $color-2;
+}
+.banner-title {
+    font-size: 80px;
+    line-height: 90px;
+    text-transform: capitalize;
+    color: $white;
+}
+.banner-title-2 {
+    font-size: 80px;
+    line-height: 90px;
+    text-transform: capitalize;
+    color: $color-2;
+}
+.breadcrumb-title {
+    font-size: 48px;
+    line-height: 1.8;
+    color: $white;
+}
+.breadcrumb-txt {
+    font-size: 16px;
+    line-height: 100%;
+    color: $white;
+}
+.banner-paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    color: $white;
+}
+.banner-paragraph-2 {
+    font-size: 18px;
+    line-height: 30px;
+    color: $black;
+}
