@@ -5,6 +5,7 @@
     top: 0;
     left: 0;
     right: 0;
+    padding-bottom: 10px;
     z-index: 11;
 }
 .header-2 {
@@ -71,7 +72,7 @@
     &:after {
         content: "";
         position: absolute;
-        bottom: 0;
+        bottom: -3px;
         left: 0;
         width: 0;
         height: 2px;
@@ -112,4 +113,10 @@
     height: 40px;
     background: $gradient-4;
     border-radius: 50%;
+}
+.navbar-nav li.nav-item {
+    padding: 13px 0;
+}
+li.nav-item.dropdown .dropdown-menu {
+    top: 100%;
 }

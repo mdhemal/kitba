@@ -9,6 +9,26 @@
     color: $white;
 }
 .about-title {
-    font-size: 36px;
-    line-height: 46px;
+    font-size: 48px;
+    line-height: 1.2;
+}
+.feature-img.p-relative::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content: "";
+    opacity: .25;
+}
+
+.feature-img.p-relative a.video-btn {
+    z-index: 9;
+    & i {
+        transition: all .3s;
+    }
+    &:hover i {
+        font-weight: 700;
+    }
 }

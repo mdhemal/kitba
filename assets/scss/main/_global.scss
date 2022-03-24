@@ -1280,8 +1280,8 @@ ul {
 
 
 .section-title {
-    font-size: 36px;
-    line-height: 46px;
+    font-size: 48px;
+    line-height: 1.2;
     color: $color-2;
 }
 
@@ -1430,4 +1430,14 @@ ul {
 .btn-box-2 {
     display: flex;
     gap: 10px;
+}
+.pr-70 {
+    padding-right: 70px;
+}
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ml-30 {
+    margin-left: 30px;
 }

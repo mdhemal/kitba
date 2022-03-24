@@ -14,12 +14,13 @@
     color: $white;
 }
 .client-name {
-    font-family: $special-font;
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     line-height: 100%;
+    padding-bottom: 15px;
     font-weight: 700;
     text-transform: uppercase;
-    color: $white;
+    color: #fff;
 }
 .slick-dots {
     position: absolute;

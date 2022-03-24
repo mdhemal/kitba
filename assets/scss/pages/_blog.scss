@@ -298,3 +298,34 @@
 .blog-comment-textarea {
     height: 130px;
 }
+.blog-card .part-img {
+    overflow: hidden;
+    position: relative;
+}
+
+.blog-card .part-img img {
+    transition: all .3s;
+}
+
+.blog-card:hover .part-img img {
+    transform: scale(1.1);
+}
+span.lv-part-blog-calendar-date {
+    position: absolute;
+    left: 20px;
+    font-size: 14px;
+    top: 20px;
+    background: #5CCD5C;
+    color: #fff;
+    line-height: 1;
+    padding: 10px 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span.lv-part-blog-calendar-date i {
+    margin-right: 6px;
+}
+h4.footer-info-txt a:hover {
+    color: #23cc88;
+}

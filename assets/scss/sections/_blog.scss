@@ -16,3 +16,17 @@
 .blog-single-stat {
     line-height: 100%;
 }
+.blog-bottom-part > .blog-single-stat:first-child {
+    position: relative;
+}
+
+.blog-bottom-part > .blog-single-stat:first-child::after {
+    position: absolute;
+    right: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    width: 1.5px;
+    background: rgba(85, 85, 85, 0.15);
+    content: "";
+}

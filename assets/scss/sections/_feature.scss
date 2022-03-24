@@ -33,3 +33,26 @@
     line-height: 100%;
     color: $color-2;
 }
+.r-gap-40 {
+    row-gap: 40px;
+}
+.has-gradient-service > *:nth-child(1)  a {
+    &:hover {
+        color: #38CD78;
+    }
+}
+.has-gradient-service > *:nth-child(2)  a {
+    &:hover {
+        color: #35ACE0;
+    }
+}
+.has-gradient-service > *:nth-child(3)  a {
+    &:hover {
+        color: #FF5454;
+    }
+}
+.has-gradient-service > *:nth-child(4)  a {
+    &:hover {
+        color: #E85AC9;
+    }
+}
